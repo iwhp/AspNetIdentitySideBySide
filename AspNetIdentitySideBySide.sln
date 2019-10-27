@@ -3,17 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29411.138
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "IdentityMigrationDb", "IdentityMigrationDb\IdentityMigrationDb.sqlproj", "{118F4A75-8913-4E93-9F81-DBBBFF4989E4}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetWebApp1.DotNetFramework.SPA", "AspNetWebApp1.DotNetFramework.SPA\AspNetWebApp1.DotNetFramework.SPA.csproj", "{FAABB2F7-B77C-41D0-AD96-305C7127D66C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetWebApp1.DotNetFramework.MVC", "AspNetWebApp1.DotNetFramework.MVC\AspNetWebApp1.DotNetFramework.MVC.csproj", "{87DA6C04-A8B2-489A-B35F-A1A82EA63624}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetWebApp2.DotNetCore.v2.MVC", "AspNetWebApp2.DotNetCore.v2.MVC\AspNetWebApp2.DotNetCore.v2.MVC.csproj", "{92F21608-254E-4219-8463-F322821F8D15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetWebApp2.DotNetCore.v2.MVC", "AspNetWebApp2.DotNetCore.v2.MVC\AspNetWebApp2.DotNetCore.v2.MVC.csproj", "{92F21608-254E-4219-8463-F322821F8D15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetWebApp3.DotNetCore.v3.Angular", "AspNetWebApp3.DotNetCore.v3.Angular\AspNetWebApp3.DotNetCore.v3.Angular.csproj", "{8A89C0B9-9A63-4602-BA4F-C37B66E58004}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetWebApp3.DotNetCore.v3.Angular", "AspNetWebApp3.DotNetCore.v3.Angular\AspNetWebApp3.DotNetCore.v3.Angular.csproj", "{8A89C0B9-9A63-4602-BA4F-C37B66E58004}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetWebApp3.DotNetCore.v3.MVC", "AspNetWebApp3.DotNetCore.v3.MVC\AspNetWebApp3.DotNetCore.v3.MVC.csproj", "{D78BBDF9-8906-4637-8DFD-54A36FD643F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetWebApp3.DotNetCore.v3.MVC", "AspNetWebApp3.DotNetCore.v3.MVC\AspNetWebApp3.DotNetCore.v3.MVC.csproj", "{D78BBDF9-8906-4637-8DFD-54A36FD643F6}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "IdentityMigrationDb", "IdentityMigrationDb\IdentityMigrationDb.sqlproj", "{118F4A75-8913-4E93-9F81-DBBBFF4989E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{441ED69A-CB0E-4989-8168-812A85392BCE}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,12 +28,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{118F4A75-8913-4E93-9F81-DBBBFF4989E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{118F4A75-8913-4E93-9F81-DBBBFF4989E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{118F4A75-8913-4E93-9F81-DBBBFF4989E4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{118F4A75-8913-4E93-9F81-DBBBFF4989E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{118F4A75-8913-4E93-9F81-DBBBFF4989E4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{118F4A75-8913-4E93-9F81-DBBBFF4989E4}.Release|Any CPU.Deploy.0 = Release|Any CPU
 		{FAABB2F7-B77C-41D0-AD96-305C7127D66C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FAABB2F7-B77C-41D0-AD96-305C7127D66C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAABB2F7-B77C-41D0-AD96-305C7127D66C}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -47,6 +48,12 @@ Global
 		{D78BBDF9-8906-4637-8DFD-54A36FD643F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D78BBDF9-8906-4637-8DFD-54A36FD643F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D78BBDF9-8906-4637-8DFD-54A36FD643F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{118F4A75-8913-4E93-9F81-DBBBFF4989E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{118F4A75-8913-4E93-9F81-DBBBFF4989E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{118F4A75-8913-4E93-9F81-DBBBFF4989E4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{118F4A75-8913-4E93-9F81-DBBBFF4989E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{118F4A75-8913-4E93-9F81-DBBBFF4989E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{118F4A75-8913-4E93-9F81-DBBBFF4989E4}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
